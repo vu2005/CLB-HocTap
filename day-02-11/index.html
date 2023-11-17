@@ -17,7 +17,8 @@
         />
     </head>
     <body>
-        <header>
+        <header class="fixed-header">
+            
             <nav
                 class="navbar navbar-expand-lg bg-body-tertiary"
                 style="position: sticky"
@@ -57,11 +58,19 @@
                             </li>
                         </ul>
                     </div>
+                    
                     <div class="account" style="cursor: pointer">
                         <i class="fa-solid fa-user"></i>
                     </div>
+                    
+                </div>
+                <div style= "display: flex;" class="time">
+                    <h2 id="sec"></h2>
+                    <h2>:</h2>
+                    <h2 id="min"></h2>
                 </div>
             </nav>
+        </div>
         </header>
 
         <div class="slide">
@@ -344,5 +353,6 @@
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"
         ></script>
+        <script src="./assest/javascript/app.js"></script>
     </body>
 </html>
